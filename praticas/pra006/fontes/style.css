@@ -1,0 +1,25 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family:'chateau' ;
+    src: url("Chateau\ des\ Oliviers.ttf") format('truetype');
+}
+
+body{
+    background-color: antiquewhite;
+}
+main{
+    width: 900px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+p{
+    text-align: justify;
+}
+h2{
+    font-family: 'chateau';
+    font-weight: normal;
+}
