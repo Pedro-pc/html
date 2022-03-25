@@ -26,7 +26,8 @@ header{
 }
 
 header .logo{
-    max-width: 350px;
+    width: 100%;
+    max-width: 300px;
     margin: auto;
     display: block;
 }
@@ -42,10 +43,10 @@ header nav a{
     font-weight: bold;
 }
 header nav a:hover{
-    background-color: #41593E;
+    background-color: var(--cor-do-body);
     padding: 10px 5px;
-    transition-duration: 0.1s;
+    transition-duration: 0.2s;
     border-radius: 5px;
-    color: #6FA660;
+    color: var(--cor2);
     
 }
