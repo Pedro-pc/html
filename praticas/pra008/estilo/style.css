@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Harry_p';
+    src: url(/praticas\pra008\font\HARRYP__.TTF) format("truetype");
+}
+:root{
+    --cor-do-body:#41593E;
+    --cor1:#41A681;
+    --cor2:#6FA660;
+    --cor3:#B2D9A0;
+    --cor4:#0D0D0D;
+
+    --fonte-de-destaque:'Harry_p', cursive;
+    --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-dos-titulos: Georgia;
+}
+body{
+    background-color: var(--cor1);
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor2),var(--cor4) );
+    min-height: 150px;
+    margin: -8px;
+    padding: 10px 10px 0px 10px;
+}
+
+header .logo{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+header nav{
+    text-align: center;
+
+}
+header nav a{
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: var(--fonte-padrão);
+    font-weight: bold;
+}
+header nav a:hover{
+    background-color: #41593E;
+    padding: 10px 5px;
+    transition-duration: 0.1s;
+    border-radius: 5px;
+    color: #6FA660;
+    
+}
