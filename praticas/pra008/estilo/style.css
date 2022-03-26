@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'Harry_p';
-    src: url(/praticas\pra008\font\HARRYP__.TTF) format("truetype");
+    font-family: 'Harryp';
+    src: url(\praticas\pra008\font\HARRYP__.TTF) format("truetype");
 }
 :root{
     --cor-do-body:#41593E;
@@ -11,12 +11,17 @@
     --cor3:#B2D9A0;
     --cor4:#0D0D0D;
 
-    --fonte-de-destaque:'Harry_p', cursive;
+    --fonte-de-destaque:'Harryp', cursive;
     --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
     --fonte-dos-titulos: Georgia;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background-color: var(--cor1);
+    margin: 0px;
 }
 header{
     background-image: linear-gradient(to bottom, var(--cor2),var(--cor4) );
@@ -50,3 +55,16 @@ header nav a:hover{
     color: var(--cor2);
     
 }
+main{
+    background-color: white;
+    margin: 8px 20px 20px 20px;
+    padding: 10px;
+}
+main p{
+    text-align: justify;
+}
+main h1{
+    font-family: var(--fonte-de-destaque);
+    font-style: italic;
+}
+
