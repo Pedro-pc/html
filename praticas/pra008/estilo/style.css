@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'Harryp';
-    src: url(\praticas\pra008\font\HARRYP__.TTF) format("truetype");
-}
+
 :root{
     --cor-do-body:#41593E;
     --cor1:#41A681;
@@ -11,7 +8,6 @@
     --cor3:#B2D9A0;
     --cor4:#0D0D0D;
 
-    --fonte-de-destaque:'Harryp', cursive;
     --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
     --fonte-dos-titulos: Georgia;
 }
@@ -27,7 +23,7 @@ header{
     background-image: linear-gradient(to bottom, var(--cor2),var(--cor4) );
     min-height: 150px;
     margin: -8px;
-    padding: 10px 10px 0px 10px;
+    padding: 30px 10px 0px 10px;
 }
 
 header .logo{
@@ -57,14 +53,56 @@ header nav a:hover{
 }
 main{
     background-color: white;
-    margin: 8px 20px 20px 20px;
     padding: 10px;
+    background-color: #0D0D0D;
 }
 main p{
     text-align: justify;
+    font-family: var(--fonte-padrão);
+    margin: 10px;
+    text-indent: 30px;
+    line-height: 1.2em;
+    font-size: 1.1em;
 }
 main h1{
-    font-family: var(--fonte-de-destaque);
+    font-family: var(--fonte-dos-titulos);
     font-style: italic;
+    margin: 10px;
+    background-image: linear-gradient(to right, var(--cor-do-body), transparent );
+    border-radius: 30px;
+    color: var(--cor4);
+    padding: 5px 10px;
+}
+
+main h2{
+    font-family: var(--fonte-dos-titulos);
+    font-style: italic;
+    background-image: linear-gradient(to right, var(--cor-do-body), transparent);
+    padding: 5px;
+    border-radius: 30px;
+    color: var(--cor4);
+    padding: 5px 10px;
+}
+main img{
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    display: block;
+    padding: 0px;
+}
+article{
+    background-color: white;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+footer{
+    background-color: #41593E;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: var(--fonte-padrão);
+    font-size: 1em;
+    font-weight: bold;
 }
 
