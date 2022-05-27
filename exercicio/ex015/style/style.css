@@ -77,6 +77,7 @@
     text-decoration: none;
     padding: 20px 38px;
     border-radius: 5px;
+    background-color: #ffc001;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -85,12 +86,35 @@
 .subconteudo{
     width: 1000px;
     margin: auto;
+    text-align: center;
 }
-.outrosprodutos{
+.subconteudo .outrosprodutos{
     height: 90px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    line-height: 90px; 
+    line-height: 90px;
+    text-align: center; 
+
+}
+.subconteudo img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rodape{
+    height: 50px;
+    background-color: #347aba;
+}
+.subrodape{
+    width: 1000px;
+    margin: auto;
+}
+.empresa{
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
     text-align: center;
+    color: #ffffff;
+    margin-top: 45px;
 }
