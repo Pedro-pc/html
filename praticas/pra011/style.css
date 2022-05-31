@@ -1,0 +1,30 @@
+
+.cabecalho{
+    width: 100%;
+    background-color: #333;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+.tabela{
+    width: 25%;
+    float: left;
+}
+.tabela h1{
+    text-align: center;
+}
+@media only screen and (max-width:800px) {
+    
+    .tabela{
+        width: 50%;
+    }
+    
+}
+@media only screen and (max-width:500px) {
+
+    .tabela{
+        width: 100%;
+    }
+}
+
+    
