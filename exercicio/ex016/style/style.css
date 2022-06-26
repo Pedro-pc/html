@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.topo{
+    height: 30px;
+    background-color: #333;
+}
+.subtopo{
+    margin: auto;
+    width: 100%;
+    max-width: 1024px;
+}
+.topoesquerda{
+    width: 50%;
+    height: 30px;
+    float: left;
+}
+.topodireita{
+    width: 50%;
+    height: 30px;
+    float: right;
+    
+}
+.topoesquerda ul{
+    list-style: none;
+    
+}
+.topoesquerda ul li{
+    float: left;
+    margin-left: 10px;
+    margin-right:10px ;
+    line-height: 30px;
+}
+.topoesquerda ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.topoesquerda ul li .activo{
+    color: #01829f;
+
+}
+.topodireita a img{
+    width: 26px;
+    height: 26px;
+    border: 0;
+    border: 0;
+    float: right;
+    margin-left:4px ;
+    
+}
+
+.topodireita .botaopesquisar{
+    width: 26px;
+    height: 26px;
+    border: 0;
+    float: right;
+}
+.topodireita .pesquisar{
+    width: 110px;
+    height: 26px;
+    outline: 0;
+    margin-left: 10px;
+    float: right;
+    
+}
+.subcabecalho{
+    width: 100%;
+    max-width: 1024px;
+    height: 100px;
+    margin: auto;
+}
+.subcabecalho .logo{
+    width: 230px;
+    height: 80px;
+    margin-top: 5px;
+    float: left;
+
+}
+.subcabecalho .logo img{
+    width: 230px;
+    border: 0;
+}
+.subcabecalho .publicidade{
+    width: 650px;
+    background-color: #ff0f10;
+    height: 85px;
+    float: right;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.subcabecalho .publicidade p{
+    color: white;
+    font-size: 35px;
+    line-height: 85px;
+    text-align: center;
+    font-weight: bolder;
+}
+.menu{
+    background-color: #ff0f10;
+    height: 40px;
+}
+.menuint{
+    margin: auto;
+    height: 40px;
+    width: 100%;
+    max-width: 1024PX;
+    
+}
+.menuint ul{
+    list-style: none;
+}
+.menuint ul li{
+    float: left;
+    line-height: 40px;
+    
+}
+.menuint ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.menuint a:hover{
+    background-color: #a50e13;
+}
+.menuint ul li a img{
+    width: 10px;
+    height: 12px;
+    line-height: 40px;
+}
+.submenu{
+    background-color: #ff0f10;
+    position: absolute;
+    display: none;
+}
+.menuint li:hover .submenu{
+    display: block;
+}
+.menuitem a:hover{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ultimanotint{
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+}
+.noticiadeultimahora{
+    width: 100%;
+    max-width: 1024px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.noticia{
+    display: inline-block;
+    background-color: #ff0f10;
+    height: 30px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 30px;
+    
+}
+.noticia p{
+    font-size: 16px;
+    margin: auto;
+}
+
+.noticias{
+   display: inline-block;
+   height: 30px;
+   line-height: 30px;
+   padding-left: 10px;
+}
+.noticias{
+    line-height: 30px;
+
+}
+.conteudoint{
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+}
+.coteudoesquerda{
+    width: 755px;
+    float: left;
+}
+.coteudodireita{
+    width: 255px;
+    margin-left: 10px;
+    float: right;
+}
+.widget{
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.widget_titulo{
+    background-color: #ddd;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.widget_conteudo{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.widget_conteudo a img{
+    width: 26px;
+    height: 26px;
+    margin-left:4px ;
+}
+.destaques{
+    border-bottom: 1px solid #ccc;
+    margin: 0 10px;
+    padding: 10px 0;
+}
+.destaques a{
+    text-decoration: none;
+    color: black;
+}
+.destaques a p{
+    font-size: 13px;
+}
+.widget_conteudo img{
+    width: 100%;
+    height: 100%;
+}
+.slideshow {
+	height:335px;
+	background-color:#CCC;
+	overflow:hidden;
+	margin-bottom:20px;
+}
+.slideshowarea {
+	width:100000px;
+	height:335px;
+	background-color:#DDD;
+	transition:all 1s;
+}
+.slide {
+	height:335px;
+	float:left;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+}
+.slideinfo {
+	height:70px;
+	background-image:url('../img/slideshow_bg.png');
+	background-size: auto 70px;
+	margin-top:265px;
+}
+.slideinfo_titulo {
+	font-size:20px;
+	color:#FFF;
+	padding-top:15px;
+	padding-left: 20px;
+}
+.slideinfo_subtitulo {
+	font-size:13px;
+	color:#FFF;
+	padding-left: 20px;
+}
+.slidebolinhas {
+	position: absolute;
+	width:200px;
+	height:20px;
+}
+.bolinha {
+	width:20px;
+	height:20px;
+	float:left;
+	margin-right:5px;
+	cursor:pointer;
+	background-color:#CCC;
+	border-radius:10px;
+}
+.noticiasesq{
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
+.noticiasesq .noticiaimg{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    float: left;  
+}
+a .noticiasesq .noticiaimg img{
+    width: 80px;
+    height: 80px;
+    border: 0;
+    margin: 0;
+    
+}
+.noticiacont{
+    float: left;
+    margin-left: 6px;
+}
+a .noticiacont h1{
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+.noticiacont p{
+    text-align: left;
+    font-size: 12px;
+    color: #ccc;
+}
+.noticiasdir{
+    width: 409px;
+    float: left;
+    margin: 10px;
+    
+}
+a .noticiasdir h1{
+    text-align: left;
+    color: black;
+}
+a .noticiasdir img{
+    border: 0;
+    width: 400px;
+    height: 224px;
+    margin: 0;
+}
+.noticiasdir .noticiaimg{
+    width: 400px;
+    height: 224px;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+
+@media only screen and (min-width:1011px) and (max-width:1044px){
+    .subtopo,
+    .conteudoint,
+    .menuint,
+    .subcabecalho,
+    .ultimanotint,
+    .noticiadeultimahora{
+        max-width: 992px;
+    }
+
+    .coteudoesquerda{
+        width: 688px;
+    }
+    .noticiasdir{
+        width: 345px;
+    }
+    .noticiasdir .noticiaimg{
+        width: 320px;
+    }
+    a .noticiasdir img{
+        width: 320px;
+    }
+}
+@media only screen and (min-width:788px) and (max-width:1011px){
+
+    .subtopo,
+    .conteudoint,
+    .menuint,
+    .subcabecalho,
+    .ultimanotint,
+    .noticiadeultimahora{
+        max-width: 768px;
+    }
+    .subcabecalho .publicidade{
+        display: none;
+    }
+    .subcabecalho .logo{
+        float: none;
+        margin: auto;
+    }
+    .coteudoesquerda{
+        float: none;
+        width: auto;
+    }
+    .coteudodireita{
+        display: none;
+    }
+    .noticiasdir{
+        width: 426px;
+    }
+    .noticiasdir .noticiaimg{
+        width: auto;
+    }
+    a .noticiasdir img{
+        width: 417px;
+    }
+}
+@media only screen and (min-width:616px) and (max-width:788px){
+    .subtopo,
+    .conteudoint,
+    .menuint,
+    .subcabecalho,
+    .ultimanotint,
+    .noticiadeultimahora{
+        max-width: 600px;
+    }
+    .subcabecalho .publicidade{
+        display: none;
+    }
+    .subcabecalho .logo{
+        float: none;
+        margin: auto;
+    }
+    .coteudoesquerda{
+        float: none;
+        width: auto;
+    }
+    .coteudodireita{
+        display: none;
+    }
+    .noticiasdir{
+        width: 258px;
+    }
+    .noticiasdir .noticiaimg{
+        width: auto;
+    }
+    a .noticiasdir img{
+        width: 248px;
+    }  
+}
+@media only screen and (max-width:616px){
+
+    .subtopo,
+    .conteudoint,
+    .menuint,
+    .subcabecalho,
+    .ultimanotint,
+    .noticiadeultimahora{
+        max-width: 320px;
+    }
+    .menuint{
+        display: none;
+    }
+    .topoesquerda{
+        display: none;
+    }
+    .topodireita{
+        width: 100%;
+    }
+    .noticiadeultimahora{
+        display: none;
+    }
+    .slideshow{
+        margin-top: 20px;
+    }
+    .subcabecalho .publicidade{
+        display: none;
+    }
+    .subcabecalho .logo{
+        float: none;
+        margin: auto;
+    }
+    .coteudoesquerda{
+        float: none;
+        width: auto;
+    }
+    .coteudodireita{
+        display: none;
+    }
+    .noticiasdir{
+        width: 298px;
+    }
+    .noticiasdir .noticiaimg{
+        width: auto;
+    }
+    a .noticiasdir img{
+        width: 288px;
+    }
+
+}
+
+
+
+
+

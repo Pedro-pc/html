@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Portal</title>
+</head>
+<body>
+   <div class="topo">
+       <div class="subtopo">
+           <div class="topoesquerda">
+               <ul>
+                   <li><a href="index.html" class="activo">Home</a></li>
+                   <li><a href="#">Quem somos</a></li>
+                   <li><a href="#">Anuncie aqui</a></li>
+                   <li><a href="#">Contacto</a></li>
+               </ul>
+           </div>
+           <div class="topodireita">
+                <form action="">
+                    <input type="image" class="botaopesquisar" src="img/lupa.png" >
+                    <input type="search" name="busca" placeholder="pesquisar..." class="pesquisar">
+                    
+                </form>
+               <a href=""><img src="img/rss.png" alt=""></a>
+               <a href=""><img src="img/googleplus.png" alt=""></a>
+               <a href=""><img src="img/facebook.png" alt=""></a>
+               <a href=""><img src="img/twitter.png" alt=""></a>
+               <a href=""><img src="img/youtube.png" alt=""></a>
+                  
+           </div>
+       </div>
+   </div>
+   <header class="cabecalho">
+       <div class="subcabecalho">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="publicidade">
+                <p>Publicidade 650X90px</p>
+            </div>
+       </div>
+   </header>
+   <nav class="menu">
+    <div class="menuint">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Economia</a></li>
+            <li><a href="#">Entretenimento<img src="img/arrowdown.png" alt=""></a>
+                <div class="submenu">
+                    <div class="menuitem"><a href="#">Item 1</a></div>
+                    <div class="menuitem"><a href="#">Item 2</a></div>
+                    <div class="menuitem"><a href="#">Item 3</a></div>
+                </div>
+            </li>
+            <li><a href="#">Esportes <img src="img/arrowdown.png" alt=""></a>  
+                <div class="submenu">
+                    <div class="menuitem"><a href="#">Item 1</a></div>
+                    <div class="menuitem"><a href="#">Item 2</a></div>
+                    <div class="menuitem"><a href="#">Item 3</a></div>
+                </div>
+            </li>
+            <li><a href="#">Geral</a></li>
+            <li><a href="#">Noticias <img src="img/arrowdown.png" alt=""></a>
+                <div class="submenu">
+                    <div class="menuitem"><a href="#">Item 1</a></div>
+                    <div class="menuitem"><a href="#">Item 2</a></div>
+                    <div class="menuitem"><a href="#">Item 3</a></div>
+                </div>
+            </li>
+            <li><a href="#">Policia</a></li>
+            <li><a href="#">Videos</a></li>
+        </ul>
+    </div>
+   </nav> 
+   <div class="ultimanot">
+      <div class="ultimanotint">
+        
+        <div class="noticiadeultimahora">
+            <div class="noticia">
+                <p>ÚLTIMAS NOTÍCIAS</p>
+            </div>
+            <div class="noticias">
+                <p>Qualquer coisa que ira passar por aqui</p>
+            </div>
+        </div>
+      </div>
+   </div>
+   <main class="conteudo">
+        <section class="conteudoint">
+            <div class="coteudoesquerda">
+                <div class="slideshow" id="slideshow">
+                    <div class="slidebolinhas">
+                        <div class="bolinha" onclick="mudarSlide(0)"></div>
+                        <div class="bolinha" onclick="mudarSlide(1)"></div>
+                        <div class="bolinha" onclick="mudarSlide(2)"></div>
+                        <div class="bolinha" onclick="mudarSlide(3)"></div>
+                    </div>
+                    <div class="slideshowarea">
+                        <a href="http://www.google.com.br/">
+                            <div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_titulo">Titulo de teste 1</div>
+                                    <div class="slideinfo_subtitulo">Subtitulo de teste</div>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')">
+                            <div class="slideinfo">
+                                <div class="slideinfo_titulo">Titulo de teste 2</div>
+                                <div class="slideinfo_subtitulo">Subtitulo de teste</div>
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')">
+                            <div class="slideinfo">
+                                <div class="slideinfo_titulo">Titulo de teste 3</div>
+                                <div class="slideinfo_subtitulo">Subtitulo de teste</div>
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')">
+                            <div class="slideinfo">
+                                <div class="slideinfo_titulo">Titulo de teste 4</div>
+                                <div class="slideinfo_subtitulo">Subtitulo de teste</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">NOTÍCIAS</div>
+                    <div class="widget_conteudo">
+                        <a href="">
+                            <div class="noticiasdir">
+                                <div class="noticiaimg">
+                                <img src="img/banner.jpg" alt="">
+                                </div>
+                                <div class="noticiacont">
+                                    <h1>
+                                        Titulo da máteria Titulo da máteria Titulo da máteria Titulo da máteria Titulo da máteria Titulo da máteria Titulo da máteria  
+                                    </h1>
+                                    <p>
+                                        Comentario 500
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="noticiasesq">
+                            <div class="noticiaimg">
+                                <img src="img/banner.jpg" alt="">
+                            </div>
+                            <div class="noticiacont">
+                                <h1>Titulo da máteria 1</h1>
+                                <p>Comentario 500</p>
+                            </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="noticiasesq">
+                                <div class="noticiaimg">
+                                    <img src="img/banner.jpg" alt="">
+                                </div>
+                                <div class="noticiacont">
+                                    <h1>Titulo da máteria 2</h1>
+                                    <p>Comentario 500</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="noticiasesq">
+                                <div class="noticiaimg">
+                                    <img src="img/banner.jpg" alt="">
+                                </div>
+                                <div class="noticiacont">
+                                    <h1>Titulo da máteria 3</h1>
+                                    <p>Comentario 500</p>
+                                </div>
+                            </div>
+                        </a>
+                        <div style="clear:both ;"></div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">NOTÍCIAS</div>
+                    <div class="widget_conteudo">
+                        <a href="">
+                            <div class="noticiasdir">
+                                <div class="noticiaimg">
+                                <img src="img/banner.jpg" alt="">
+                                </div>
+                                <div class="noticiacont">
+                                    <h1>
+                                        Titulo da máteria Titulo da máteria Titulo da máteria Titulo da máteria Titulo da máteria Titulo da máteria Titulo da máteria  
+                                    </h1>
+                                    <p>
+                                        Comentario 500
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="noticiasesq">
+                            <div class="noticiaimg">
+                                <img src="img/banner.jpg" alt="">
+                            </div>
+                            <div class="noticiacont">
+                                <h1>Titulo da máteria 1</h1>
+                                <p>Comentario 500</p>
+                            </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="noticiasesq">
+                                <div class="noticiaimg">
+                                    <img src="img/banner.jpg" alt="">
+                                </div>
+                                <div class="noticiacont">
+                                    <h1>Titulo da máteria 2</h1>
+                                    <p>Comentario 500</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="noticiasesq">
+                                <div class="noticiaimg">
+                                    <img src="img/banner.jpg" alt="">
+                                </div>
+                                <div class="noticiacont">
+                                    <h1>Titulo da máteria 3</h1>
+                                    <p>Comentario 500</p>
+                                </div>
+                            </div>
+                        </a>
+                        <div style="clear:both ;"></div>
+                    </div>
+                </div>     
+            </div>
+            </div>
+            <div class="coteudodireita">
+                <div class="widget">
+                    <div class="widget_titulo">NOTÍCIAS</div>
+                    <div class="widget_conteudo">
+                        <a href=""><img src="img/rss.png" alt=""></a>
+                        <a href=""><img src="img/googleplus.png" alt=""></a>
+                        <a href=""><img src="img/facebook.png" alt=""></a>
+                        <a href=""><img src="img/twitter.png" alt=""></a>
+                        <a href=""><img src="img/youtube.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">ÚLTIMAS NOTICIAS</div>
+                    <div class="widget_conteudo">
+                        <div class="destaques">
+                            <a href="#">
+                                <p>
+                                    Texto para exemplificar alguma coisa, tem de ter pelo menos mais de uma linha
+                                </p>
+                            </a>
+                        </div>
+                        <div class="destaques">
+                            <a href="#">
+                                <p>
+                                    Texto para exemplificar alguma coisa, tem de ter pelo menos mais de uma linha
+                                </p>
+                            </a>
+                        </div>
+                        <div class="destaques">
+                            <a href="#">
+                                <p>
+                                    Texto para exemplificar alguma coisa, tem de ter pelo menos mais de uma linha
+                                </p>
+                            </a>
+                        </div>
+                        <div class="destaques">
+                            <a href="#">
+                                <p>
+                                    Texto para exemplificar alguma coisa, tem de ter pelo menos mais de uma linha
+                                </p>
+                            </a>
+                        </div>
+                        <div class="destaques">
+                            <a href="#"><p>Texto para exemplificar alguma coisa, tem de ter pelo menos mais de uma linha</p></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">PUBLICIDADE</div>
+                    <div class="widget_conteudo">
+                        <img src="img/banner.jpg" alt="">
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">ENCONTRE-NOS NO FACEBOOK</div>
+                    <div class="widget_conteudo">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FB7WEB%2F&tabs&width=255&height=70&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="255" height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+   </main>
+</body>
+</html>
