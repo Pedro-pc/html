@@ -340,6 +340,9 @@ a .noticiasdir img{
     padding: 3px;
     border: 1px solid #ccc;
 }
+.menuint .menuham{
+    display: none;
+}
 
 
 @media only screen and (min-width:1011px) and (max-width:1044px){
@@ -350,6 +353,9 @@ a .noticiasdir img{
     .ultimanotint,
     .noticiadeultimahora{
         max-width: 992px;
+    }
+    #menu{
+        display: block !important;
     }
 
     .coteudoesquerda{
@@ -374,6 +380,9 @@ a .noticiasdir img{
     .ultimanotint,
     .noticiadeultimahora{
         max-width: 768px;
+    }
+    #menu{
+        display: block !important;
     }
     .subcabecalho .publicidade{
         display: none;
@@ -407,6 +416,9 @@ a .noticiasdir img{
     .ultimanotint,
     .noticiadeultimahora{
         max-width: 600px;
+    }
+    #menu{
+        display: block !important;
     }
     .subcabecalho .publicidade{
         display: none;
@@ -442,8 +454,29 @@ a .noticiasdir img{
     .noticiadeultimahora{
         max-width: 320px;
     }
-    .menuint{
+    
+    .menuint ul{
+        position: absolute;
+        background-color: #ff0f10;
+        z-index: 10;
         display: none;
+    }
+    .menuint ul li{
+        float: none;
+        height: auto;
+    }
+    .menuint ul li a img{
+        display: none;
+    }
+    .menuint .menuham{
+        width: 40px;
+        height: 40px;
+        display: block;
+        
+    }
+    .submenu{
+        position: static;
+        display: block;
     }
     .topoesquerda{
         display: none;
