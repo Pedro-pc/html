@@ -1,0 +1,16 @@
+.container{
+    background-color: #ddd;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.item{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+}
